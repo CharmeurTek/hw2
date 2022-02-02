@@ -1,0 +1,51 @@
+body {
+    font-family: Calibri;
+}
+
+P {
+    font-family: 'Calibri';
+}
+
+h1 {
+    font-family: 'Courier New';
+    color: red;
+}
+
+h2 {
+    font-family: 'Courier New';
+    color: red;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
+
+input[type="submit"]:active {
+    background-color: green;
+}
+
+ul {
+    list-style-type:square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+table tr:nth-child(even):hover {
+    background-color: lightblue;
+}
+table tr:hover {
+    background-color: lightblue;
+}
